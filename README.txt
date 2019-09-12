@@ -1,3 +1,6 @@
+Built a bit torrent like file sharing system with fallback multi-tracker system with synchronization and parallel
+downloading. Used openssl library for computing hash values of files. Implemented own algorithm for data piece selection in order to download efficiently a file from multiple servers(peers) piece by piece.
+
 Every client resides on localhost (127.0.0.1)
 Steps to run :
 
